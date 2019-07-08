@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+      <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">WebSiteName</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.HTML">Contact</a></li>
+                <li><a href="courses.HTML">Courses</a></li>
+              </ul>
+            </div>
+          </nav>
+          <center>
+        <form>
+            <div class="h3">
+             <h1>courses</h1>
+            </div>
+        </form>
+        <br><br><br>
+
+        <div class="row">
+           <div class="col-md-2 col-sm-12"></div>
+            <div class="photo1 in col-md-3"  >
+               <a href="#ex1" rel="modal:open"> <button>view more</button></a>
+            </div>
+         <div class="photo2 in col-md-3 col-sm-12" >
+               <a href="#ex1" rel="modal:open"> <button>view more</button></a>
+            </div>
+         <div class="photo3 in col-md-3 col-sm-12" >
+               <a href="#ex1" rel="modal:open"> <button>view more</button></a>
+            </div>
+         </div>
+
+         <br><br><br>
+
+         <div class="row">
+         <div class="col-md-2"></div>
+            <div class="photo4 in col-md-3 col-sm-12">
+               <a href="#ex1" rel="modal:open"> <button>view more</button></a>
+            </div>
+
+            <div class="photo5 in col-md-3 col-sm-12">
+               <a href="#ex1" rel="modal:open"> <button>view more</button></a>
+            </div>
+           
+            <div class="photo6 in col-md-3 col-sm-12">
+               <a href="#ex1" rel="modal:open"><button>view more</button></a>
+            </div> 
+         </div> 
+
+         <br><br><br>
+
+         <div class="row">
+         <div class="col-md-2"></div>
+            <div class="photo7 in col-md-3 col-sm-12">
+               <a href="#ex1" rel="modal:open"><button>view more</button></a>
+            </div>
+            <div class="photo8 in col-md-3 col-sm-12">
+               <a href="#ex1" rel="modal:open"> <button>view more</button></a>
+            </div>
+            <div class="photo9 in col-md-3 col-sm-12">
+               <a href="#ex1" rel="modal:open"><button>view more</button></a>
+             </div>
+         </div>
+           
+      
+         <form>
+            <h2>feedback</h2>
+            <button onclick="bold1()">B</button>
+            <button onclick="bold2()">I</button>
+            <button onclick="bold3()">Underline</button>
+            <select id="taille" onclick="change()">
+                <option>20px</option>
+                <option>40px</option>
+                <option>60px</option>
+            </select>
+            <select id="need" onclick="newFont()">
+            <option>Arial</option>
+            <option>Times New Roman</option>
+            </select> 
+            <br>
+            <textarea cols="20" row="40" id="text"></textarea>
+
+         <div id="ex1" class="modal">
+               <p>This is GoMyCode Track. 
+                  Each track has its own goal. 
+                  By adopting this track, you chose your own goal.</p>
+               <a href="#" rel="modal:close">Close</a>
+         </div>
+      </center>
+</body>
+<script src="css/gomycode.js"></script>
+</html>
